@@ -110,10 +110,44 @@ Regras que sigo em todo projeto:
 ## Formação
 
 - **Ciência da Computação, estudo autodidata** · desde 2023
-- **Alura** · desde set. 2025: 15 cursos concluídos, entre eles Pensamento Computacional, JavaScript, HTML e CSS, Git e GitHub, Linux e DevOps na linha de comando, Dart, Claude Code, Engenharia de Prompt e Cibersegurança com IA. Em andamento: Python: Inteligência Artificial Aplicada.
-- **Escola Nacional de Administração Pública (Enap)** · 2026: 33 cursos, 794 horas, nota média acima de 95, em orçamento público, contratações e obras pela Lei 14.133/21, governança de dados, IA no setor público e liderança.
-- **IBM SkillsBuild** · Fundamentos de Segurança Cibernética (2026)
+- **IBM SkillsBuild** · Fundamentos de Segurança Cibernética (ago. 2026)
 - Ensino médio completo
+
+### Alura · 15 cursos concluídos desde set. 2025
+
+| Curso | Conclusão |
+| --- | --- |
+| Pensamento Computacional: fundamentos da computação e lógica de programação | out. 2026 |
+| Dart: trabalhando com a sintaxe e configuração de projeto | out. 2026 |
+| Linux: gerenciando diretórios, arquivos, permissões e processos | ago. 2026 |
+| DevOps: explorando conceitos, comandos e scripts no Linux CLI | ago. 2026 |
+| Claude Code: criando sua primeira aplicação | mar. 2026 |
+| Git e GitHub: compartilhando e colaborando em projetos | mar. 2026 |
+| Engenharia de Prompt: criando prompts eficazes para IA Generativa | mar. 2026 |
+| Acessibilidade no HTML: escrevendo códigos semânticos para inclusão | mar. 2026 |
+| JavaScript: explorando a linguagem | mar. 2026 |
+| Carreira Análise de Dados: boas-vindas e primeiros passos | jan. 2026 |
+| Cibersegurança: conhecendo os usos de IA para segurança | dez. 2025 |
+| HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags | out. 2025 |
+| HTML e CSS: cabeçalho, footer e variáveis CSS | out. 2025 |
+| HTML e CSS: classes, posicionamento e Flexbox | out. 2025 |
+| Aprendizagem: personalizando sua rotina de estudos com ChatGPT | set. 2025 |
+
+Em andamento: Python: Inteligência Artificial Aplicada.
+
+### Escola Nacional de Administração Pública (Enap) · 2026 · 33 cursos, 794 horas, nota média acima de 95
+
+Certificados validáveis em [escolavirtual.gov.br](https://www.escolavirtual.gov.br).
+
+| Eixo | Cursos (carga horária, nota) | Horas |
+| --- | --- | --- |
+| Orçamento e finanças públicas | Finanças Públicas e Estatísticas Fiscais (40h, 100) · Introdução à Economia do Setor Público (30h, 100) · Orçamento e Finanças Públicas Municipais (20h, 96) · Conceitos Básicos de Finanças e Contabilidade para Estatais (20h, 90) · Entendendo Custos no Setor Público (16h, 100) · Orçamento das Empresas Estatais (10h, 100) | 136 |
+| Gestão municipal e desenvolvimento | Liderando para o Desenvolvimento: Novos Prefeitos (30h, 87) · Desenvolvimento Econômico de Municípios e Regiões (20h, 100) · Vereança em Ação: Princípios Constitucionais e Práticas Municipais (15h, 95) · Cidades Inteligentes (10h, 100) · Preparando-se para a Execução da Gestão Municipal (10h, 85) | 85 |
+| Contratações, obras e controle | Obras Públicas: Contratação e Fiscalização pela Lei 14.133/21 (30h, 96) · Integridade, Gestão de Riscos e Controle em Estatais (30h, 100) · Análise e Melhoria de Processos (20h, 87) | 80 |
+| Dados, IA e inovação | Liderança Estratégica com IA na Administração Pública (30h, 100) · Governança de Dados (25h, 100) · IA no Contexto do Serviço Público (20h, 100) · Innovation Management in the Public Sector (20h, 94) · IA: Aplicações no Governo Federal (8h, 90) · Liderança em IA no Governo (4h, 100) | 107 |
+| Liderança e gestão de pessoas | Gestão Pessoal: Base da Liderança (50h, 100) · Inteligência Emocional (50h, 95) · Gestión del Tiempo y Productividad (40h, 93) · Gestão de Crises no Setor Público (30h, 100) · Liderança e Gestão de Equipes (30h, 100) · Habilidades de Resolução de Problemas (25h, 94) · Gestão de Pessoas (20h, 88) · Gestão de Conflitos (20h, 100) · A Liderança Pública em Tempos de Crise (10h, 100) | 275 |
+| Políticas setoriais | Monitoração Eletrônica de Pessoas no Brasil (40h, 100) · Segurança e Saúde na Limpeza Urbana e Manejo de Resíduos Sólidos, NR-38 (11h, 100) | 51 |
+| Finanças pessoais | Educação Financeira Pessoal (40h, 80) · Gestão de Finanças Pessoais (20h, 100) | 60 |
 
 ---
 
