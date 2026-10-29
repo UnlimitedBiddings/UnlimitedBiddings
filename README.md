@@ -135,9 +135,11 @@ Regras que sigo em todo projeto:
 
 Em andamento: Python: Inteligência Artificial Aplicada.
 
-### Escola Nacional de Administração Pública (Enap) · 2026 · 33 cursos, 794 horas, nota média acima de 95
+### Escola Nacional de Administração Pública (Enap) · jun. a ago. 2026 · 33 cursos (794 horas, nota média acima de 95) e 1 eixo de programa
 
-Certificados validáveis em [escolavirtual.gov.br](https://www.escolavirtual.gov.br).
+Certificados validáveis em [escolavirtual.gov.br](https://www.escolavirtual.gov.br). Turmas de julho de 2026, exceto Cidades Inteligentes e Educação Financeira Pessoal (junho) e Análise e Melhoria de Processos, Entendendo Custos no Setor Público e IA no Contexto do Serviço Público (agosto).
+
+**Programa Gestão para Resultados** · Eixo 1: Tomando decisões estratégicas (ago. 2026)
 
 | Eixo | Cursos (carga horária, nota) | Horas |
 | --- | --- | --- |
