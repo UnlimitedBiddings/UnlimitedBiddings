@@ -1,6 +1,6 @@
 # Lucas Candido Silva
 
-**Desenvolvedor júnior em formação · Python, dados públicos e agentes de IA · Guarapari, ES**
+**Desenvolvedor júnior em formação · Python, dados públicos e agentes de IA · Brasil*
 
 Construo ferramentas que leem dados públicos em escala e os transformam em informação que qualquer pessoa entende. Antes de programar, passei três anos dentro de licitações públicas, do lado de quem fornece ao governo. Hoje uno as duas coisas: código em Python, agentes de IA e conhecimento real da Lei 14.133/21.
 
