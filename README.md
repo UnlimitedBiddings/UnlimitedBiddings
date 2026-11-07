@@ -1,8 +1,8 @@
 # Lucas Candido Silva
 
-**Desenvolvedor júnior em formação · Python, dados públicos e agentes de IA · Brasil*
+**Desenvolvedor júnior · Python, dados públicos e agentes de IA · Brasil*
 
-Construo ferramentas que leem dados públicos em escala e os transformam em informação que qualquer pessoa entende. Antes de programar, passei três anos dentro de licitações públicas, do lado de quem fornece ao governo. Hoje uno as duas coisas: código em Python, agentes de IA e conhecimento real da Lei 14.133/21.
+Construo ferramentas que leem dados públicos em escala e os transformam em informação que qualquer pessoa entende. Antes de programar, passei cinco anos dentro de licitações públicas, do lado de quem fornece ao governo. Hoje uno as duas coisas: código em Python, agentes de IA e conhecimento real da Lei 14.133/21.
 
 Estou procurando minha **primeira vaga júnior, de preferência remota**, em Python, dados, automação com IA ou tecnologia para o setor público.
 
@@ -96,7 +96,7 @@ Regras que sigo em todo projeto:
 
 ## Experiência
 
-**Consultor e fornecedor em licitações públicas** · negócio próprio · jan. 2023 a set. 2025
+**Consultor e fornecedor em licitações públicas** · negócio próprio · jan. 2021 a jan. 2026
 
 - Participei de licitações sob a Lei 14.133/21, da análise do edital à execução do contrato.
 - Elaborei pedidos de esclarecimento e impugnações, organizei habilitação e propostas e atuei na fase de lances.
