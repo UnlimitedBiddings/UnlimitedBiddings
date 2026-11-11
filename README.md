@@ -1,6 +1,6 @@
 # Lucas Candido Silva
 
-**Automação com IA, agentes e dados públicos · Python · Guarapari, ES**
+**Em formação como Engenheiro de Inteligência Artificial · Automação com IA, agentes e dados públicos · Python · Guarapari, ES**
 
 📄 [Currículo em PDF](Curriculo_Lucas_Candido_Silva.pdf)
 
