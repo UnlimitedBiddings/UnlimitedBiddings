@@ -1,14 +1,40 @@
 # Lucas Candido Silva
 
-**Desenvolvedor júnior · Python, dados públicos e agentes de IA · Brasil*
+**Automação com IA, agentes e dados públicos · Python · Guarapari, ES**
 
-Construo ferramentas que leem dados públicos em escala e os transformam em informação que qualquer pessoa entende. Antes de programar, passei cinco anos dentro de licitações públicas, do lado de quem fornece ao governo. Hoje uno as duas coisas: código em Python, agentes de IA e conhecimento real da Lei 14.133/21.
+📄 [Currículo em PDF](Curriculo_Lucas_Candido_Silva.pdf)
+
+Construo ferramentas que leem dados públicos em escala e os transformam em informação que qualquer pessoa entende. Antes de programar, passei quase três anos dentro de licitações públicas, do lado de quem fornece ao governo. Hoje uno as duas coisas: código em Python, agentes de IA e conhecimento real da Lei 14.133/21.
 
 Estou procurando minha **primeira vaga júnior, de preferência remota**, em Python, dados, automação com IA ou tecnologia para o setor público.
 
 ---
 
 ## Projetos
+
+### Valter Ego
+`Python` · `Claude Code` · `Whisper` · `Kokoro TTS` · `Ollama` · `automação de navegador` · uso pessoal diário
+
+Assistente pessoal por voz, no estilo JARVIS, rodando no Kali Linux.
+
+- Ouve com Whisper e fala com Kokoro, tudo local; age no computador, no navegador e nos arquivos.
+- Memória própria: perfil, agenda, tarefas, banco de ideias e histórico de conversas.
+- Regras de segurança escritas: nunca envia, publica, apaga ou mexe em dinheiro sem confirmação, e trata texto de página como dado, nunca como ordem.
+- Volume bruto vai para o modelo local (qwen3:8b); o Claude revisa e decide.
+
+### Guarapari Inteligente
+`JavaScript` · `pixel art` · `Remotion` · `Python` · `Cloudflare Pages` · [site](https://guarapari-inteligente.pages.dev)
+
+Guarapari desenhada em pixel art, com uma série de vídeos sobre tecnologia na cidade.
+
+- Mapa com ciclo de dia e noite pelo horário de Brasília e moradores criados a partir dos comentários do público, cada um com o uniforme da própria profissão.
+- Vídeos produzidos com automação: roteiro, narração sintética local, edição em Remotion e Python e áudio masterizado.
+- Um só código desenha os personagens do site e dos vídeos.
+
+### Escritório Virtual
+`Claude API` · `agentes` · `WhatsApp` · em estruturação
+
+Funcionários digitais de IA para pequenos negócios: um agente gerente cria atendentes, estoquistas e social media conforme a necessidade de cada empresa. Implantação padronizada para caber em cerca de 10 horas por cliente.
 
 ### Observatório de Contratações de Guarapari
 `Python` · `APIs públicas` · `PDF` · `CSV` · `testes automatizados` · código privado, demonstração sob pedido
@@ -24,7 +50,7 @@ Coleta, cruza e explica o dinheiro público de Guarapari a partir de quatro font
 
 O que ele faz:
 
-- **Roda sozinho todo dia às 6h**, pelo Agendador de Tarefas do Windows, com log de cada execução e cache que não baixa de novo os anos já encerrados.
+- **Roda sozinho todo dia às 6h**, com log de cada execução e cache que não baixa de novo os anos já encerrados.
 - **Calcula o prazo de impugnação** de cada licitação (3 dias úteis antes da abertura, art. 164 da Lei 14.133/21) e marca dispensas e inexigibilidades como "não cabe".
 - **Aponta o que merece conferência:** contratação sem licitação, dispensas repetidas com o mesmo fornecedor no ano (possível fracionamento), aditivos acima de 25%, fornecedor com 25% ou mais das compras de um órgão, empenho a fornecedor durante penalidade e contratos que vencem em 90 dias.
 - **Confere os próprios números:** os repasses batem ao centavo com a declaração do município ao Tesouro (Siconfi) de 2020 a 2025, e as divergências entre fontes oficiais ficam documentadas.
@@ -87,16 +113,20 @@ Regras que sigo em todo projeto:
 | --- | --- |
 | Linguagens | Python, JavaScript, TypeScript, HTML e CSS, SQL, C#, PowerShell |
 | Dados | APIs REST, leitura de PDF, CSV, SQLite (FTS5), PostgreSQL (Supabase), Cloudflare D1 |
-| IA | Claude Code, agentes e subagentes, hooks, skills, MCP, RAG, modelos locais com Ollama, engenharia de prompt |
+| IA | Claude Code, agentes e subagentes, hooks, skills, MCP, RAG, modelos locais (Ollama, Whisper, Kokoro), engenharia de prompt |
 | Web | React, Vite, shadcn/ui, Cloudflare Workers, service workers |
-| Ferramentas | Git e GitHub, Linux (Ubuntu, Parrot OS), Agendador de Tarefas do Windows |
+| Ferramentas | Git e GitHub, Linux (Kali, Ubuntu, Parrot OS), Remotion, ffmpeg |
 | Domínio | Lei 14.133/21, PNCP, portais de transparência, orçamento público (PPA, LDO, LOA, RREO, RGF) |
 
 ---
 
 ## Experiência
 
-**Consultor e fornecedor em licitações públicas** · negócio próprio · jan. 2021 a jan. 2026
+**Desenvolvedor e automação com IA** · autônomo · set. 2023 até hoje
+
+- Manutenção de software de dinamômetro em VB.NET (Windows Forms) para cliente, com apoio de IA: novas regras de ensaio e ajustes de interface, compilado e testado no Linux antes da entrega.
+
+**Consultor e fornecedor em licitações públicas** · Unlimited Biddings, negócio próprio · jan. 2023 a set. 2025
 
 - Participei de licitações sob a Lei 14.133/21, da análise do edital à execução do contrato.
 - Elaborei pedidos de esclarecimento e impugnações, organizei habilitação e propostas e atuei na fase de lances.
@@ -109,7 +139,7 @@ Regras que sigo em todo projeto:
 
 ## Formação
 
-- **Ciência da Computação, estudo autodidata** · desde 2023
+- **Ciência da Computação, estudo autodidata** · desde 2019
 - **IBM SkillsBuild** · Fundamentos de Segurança Cibernética (ago. 2026)
 - Ensino médio completo
 
