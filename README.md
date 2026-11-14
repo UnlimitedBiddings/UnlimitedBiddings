@@ -20,7 +20,8 @@ Assistente pessoal por voz, no estilo JARVIS, rodando no Kali Linux.
 - Ouve com Whisper e fala com Kokoro, tudo local; age no computador, no navegador e nos arquivos.
 - Memória própria: perfil, agenda, tarefas, banco de ideias e histórico de conversas.
 - Regras de segurança escritas: nunca envia, publica, apaga ou mexe em dinheiro sem confirmação, e trata texto de página como dado, nunca como ordem.
-- Volume bruto vai para o modelo local (qwen3:8b); o Claude revisa e decide.
+- Volume bruto vai para o modelo local (qwen3:8b); o Claude revisa e decide. Um filtro de checagem barra número sem fonte: num lote de 7 roteiros, os textos com dado inventado caíram de 5 para zero.
+- Modo reserva: quando a cota do Claude acaba, segue funcionando só com o modelo local, dividindo o trabalho entre a placa de vídeo e o processador.
 
 ### Guarapari Inteligente
 `JavaScript` · `pixel art` · `Remotion` · `Python` · `Cloudflare Pages` · [site](https://guarapari-inteligente.pages.dev)
@@ -50,7 +51,9 @@ Coleta, cruza e explica o dinheiro público de Guarapari a partir de quatro font
 
 O que ele faz:
 
-- **Roda sozinho todo dia às 6h**, com log de cada execução e cache que não baixa de novo os anos já encerrados.
+- **Rotina diária no Linux (systemd)**, com trava contra execução dupla, log de cada execução e cache que não baixa de novo os anos já encerrados.
+- **Banco SQLite único da cidade** (`observatorio.db`), de onde o Placar e o Cérebro leem.
+- **Pedidos de acesso à informação (LAI)** à Prefeitura e à Câmara para completar o que os portais não publicam.
 - **Calcula o prazo de impugnação** de cada licitação (3 dias úteis antes da abertura, art. 164 da Lei 14.133/21) e marca dispensas e inexigibilidades como "não cabe".
 - **Aponta o que merece conferência:** contratação sem licitação, dispensas repetidas com o mesmo fornecedor no ano (possível fracionamento), aditivos acima de 25%, fornecedor com 25% ou mais das compras de um órgão, empenho a fornecedor durante penalidade e contratos que vencem em 90 dias.
 - **Confere os próprios números:** os repasses batem ao centavo com a declaração do município ao Tesouro (Siconfi) de 2020 a 2025, e as divergências entre fontes oficiais ficam documentadas.
@@ -64,6 +67,8 @@ O que ele faz:
 
 Site público gerado a partir dos dados do Observatório. Um gerador em Python monta as páginas estáticas, e um Cloudflare Worker serve o site e a página **Participe**, onde moradores registram demandas num banco D1.
 
+- Página de cada obra e de cada achado, filtro de obras paralisadas e diárias dos vereadores pagamento por pagamento (2025 e 2026), com data, processo, motivo e valor.
+
 - Os dados pessoais dos moradores nunca saem do banco: só contagens são usadas nas análises.
 - Testes do Worker com `node --test` e da página Participe com `unittest`, mais um teste de regressão que compara o site gerado antes e depois de cada mudança.
 
@@ -74,10 +79,11 @@ Assistente que responde perguntas sobre o acervo do Observatório **sem mandar n
 
 - Busca nos documentos com SQLite FTS5 e responde com modelos abertos rodando no próprio PC (Ollama, qwen3.5 de 4B e 35B), escolhidos numa avaliação que comparou citação de fontes e velocidade.
 - Toda resposta cita o trecho de onde veio. Se a informação não está no acervo, ele diz que não sabe.
+- Os totais (diárias, obras, valores por fornecedor) são calculados pelo código; o modelo só redige a resposta.
 - Conversa por voz, com um atalho de área de trabalho feito em C#.
 
 ### Instruir
-`TypeScript` · `React` · `Vite` · `shadcn/ui` · `Supabase (PostgreSQL)` · `Stripe` · `MCP` · [repositório](https://github.com/UnlimitedBiddings/Instruir)
+`TypeScript` · `React` · `Vite` · `shadcn/ui` · `Supabase (PostgreSQL)` · `Stripe` · `MCP` · [repositório](https://github.com/lucascandidosilva/Instruir)
 
 Marketplace que conecta alunos a instrutores verificados (direção, idiomas, música) e a autoescolas.
 
@@ -97,6 +103,8 @@ Programo com o **Claude Code** como par de programação, e trato o agente como 
 - **Subagentes por módulo:** um engenheiro para o Observatório, outro para o Placar e outro para o Cérebro, além de agentes de QA e de segurança. Cada um tem escopo de arquivos e uma lista do que precisa rodar antes de dizer "pronto".
 - **Hooks de segurança:** um hook bloqueia qualquer comando que publique ou escreva fora do PC sem aprovação (deploy, segredos, banco remoto). O hook tem os próprios testes.
 - **Skills** para tarefas que se repetem, como diagnóstico de negócios e delegação de leitura em volume para o modelo local.
+
+- **Três repositórios separados** (Observatório, Placar e Cérebro), cada um com os próprios testes, e backup dos dados no Google Drive.
 
 Regras que sigo em todo projeto:
 
